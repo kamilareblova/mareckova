@@ -11,7 +11,7 @@ process COLLECT_BASECALLED {
 	script:
 	"""
 	echo COLLECT_BASECALLED $sample.name
-	cp  /cmbg/AvitiDN/*${sample.run}/raw_fastq/${sample.name}* ./
+	cp  /cephfs/cmbg/AvitiDN/*${sample.run}/raw_fastq/${sample.name}* ./
 	"""
 } 
 
